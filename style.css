@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont-1 {
+    width: 100%;
+    display: flex;
+}
+
+.cont-1 .box1,
+.cont-1 .box2,
+.cont-1 .box3 {
+    background-color: orangered;
+    color: white;
+    width: 500px;
+    height: 150px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.cont-1 .box1 .box11 {
+    display: flex;
+
+}
+
+.cont-1 .box1 .box11 .b1,
+.cont-1 .box1 .box11 .b2,
+.cont-1 .box1 .box11 .b3 {
+    display: flex;
+    background-color: wheat;
+    color: orangered;
+    margin: 2px;
+    width: 32%;
+    height: 2.5em;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-1 .box1 .box12 {
+    display: flex;
+
+}
+
+.cont-1 .box1 .box12 .b1,
+.cont-1 .box1 .box12 .b2,
+.cont-1 .box1 .box12 .b3,
+.cont-1 .box1 .box12 .b4 {
+    display: flex;
+    background-color: wheat;
+    color: orangered;
+    margin: 2px;
+    width: 24%;
+    height: 2.5em;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-1 .box1 .box13 {
+    display: flex;
+
+}
+
+.cont-1 .box1 .box13 .b1,
+.cont-1 .box1 .box13 .b2,
+.cont-1 .box1 .box13 .b3,
+.cont-1 .box1 .box13 .b4,
+.cont-1 .box1 .box13 .b5 {
+    display: flex;
+    background-color: wheat;
+    color: orangered;
+    margin: 2px;
+    width: 22%;
+    height: 2.5em;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-2 {
+    display: flex;
+}
+
+.cont-2 .box1,
+.cont-2 .box2,
+.cont-2 .box3,
+.cont-2 .box4 {
+    background-color: orangered;
+    color: white;
+    margin: 4px;
+    width: 25%;
+    height: 50px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+}
+.cont-3 {
+    display: flex;
+}
+
+.cont-3 .box1,
+.cont-3 .box2,
+.cont-3 .box3,
+.cont-3 .box4,
+.cont-3 .box5 {
+    background-color: orangered;
+    color: white;
+    margin: 4px;
+    width: 20%;
+    height: 50px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+}
